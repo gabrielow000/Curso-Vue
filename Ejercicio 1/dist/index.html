@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Ejercicio DOM - Estructura Base</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <h1>
+    Mis Cursos de Platzi💚
+  </h1>
+    <p>
+      <input type="text" placeholder="Titulo del curso"/>
+    </p>
+    <p>
+      <input type="number" placeholder="Horas"/>
+    </p>
+    <p>
+      <button>Guardar Curso</button>
+    </p>
+  </fieldset>
+  <div>
+    <h3>Lista de Cursos</h3>
+    <p class="red">Aun no has realizado cursos</p>
+    <div>
+      <ol>
+        <!-- Lista de cursos -->
+      </ol>
+      <hr/>
+      <p>
+        Llevo <strong>{{ totalTime }}</strong> horas aprendiendo en Platzi.
+        <b>#NuncaParesDeAprender 💚</b>
+      </p>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/vue@2.3.4'></script><script  src="./script.js"></script>
+
+</body>
+</html>

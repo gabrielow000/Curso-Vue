@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Vue Expressiones Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="app">
+  <h1>{{ title }}</h1>
+  <p>{{ 1 + 1 + 1 }}</p>
+  <p>{{ true || false }}</p>
+  <p>{{ true ? true : false }}</p>
+  <p>{{ 'string'.toUpperCase() }}</p>
+  <p>{{ JSON.stringify({ name: 'Nacho' }) }}</p>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
